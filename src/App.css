@@ -1,0 +1,98 @@
+.container{
+  display:flex;
+  
+}
+.contains{
+  width: 1000px;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.header{
+  height: 100px;
+  background-color: rgba(8, 8, 85, 0.884);
+}
+.header h1 {
+  position: relative;
+  left: 40px;
+  top: 30px;
+  font-weight: lighter;
+  color: blueviolet;
+}
+.header h5{
+  position: relative;
+   left: 100px;
+}
+.google{
+  background-color: rgb(247, 241, 241);
+  width: 300px;
+ margin-left: 5px;
+ height: 240px;
+}
+.google h5{
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+.png1{
+  position: relative;
+  left: 200px;
+
+}
+.google h1{
+  text-align: center;
+}
+.fb{
+  background-color: rgb(247, 241, 241);
+  width: 300px;
+ margin-left: 50px;
+ height: 240px;
+}
+.fb h1{
+  text-align: center;
+}
+.fb1{
+  position: relative;
+  left: 200px;
+}
+.fb h5{
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+.amaz{
+  background-color: rgb(247, 241, 241);
+  width: 300px;
+ margin-left: 50px;
+ height: 240px;
+}
+.amaz h1{
+  text-align: center;
+}
+.amz{
+  position: relative;
+  left: 200px;
+}
+.amaz h5{
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+.oncp{
+  display: inline-block;
+  color: blue;
+  background-color: rgb(204, 196, 196);
+  border: 2px;
+  border-radius: 8px;
+  padding: 2px;
+}
+.contain2{
+  display: flex;
+}
+.contain4{
+  width: 1000px;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
