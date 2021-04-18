@@ -4,11 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css'
+import save from './component/save'
+import {BrowserRouter as Router,Route,Switch} from "react-router-dom"
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+ <Router>
+       <Switch>
+           <Route path="/save" component={save}/>
+           <Route path="/" component={App}/>
+
+       </Switch>
+   </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
